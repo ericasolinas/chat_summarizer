@@ -1,7 +1,7 @@
 # Chat Summarizer
 This project addresses the task of conversation summarization by fine-tuning BART on the SAMSum dataset. We compare its performance with Gemini (via few-shot prompting), using ROUGE and BERTScore for evaluation.
 
-Repository Contens:
+Repository Contents:
 
 - **conversation_summ.ipynb**: notebook for fine-tuning of Facebook’s BART model on the SAMSum dataset.
 - **test_scores**: notebook for evaluating the performance of the fine-tuned model and comparing it with Gemini Flash 2.0. The evaluation is based on ROUGE and BERTScore.
